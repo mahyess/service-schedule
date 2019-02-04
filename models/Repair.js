@@ -7,11 +7,11 @@ const RepairSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'mobiles'
     },
-    handle: {
-        type: String,
-        required: true,
-        max:40 
-    },
+    // handle: {
+    //     type: String,
+    //     required: true,
+    //     max:40 
+    // },
     title: {
         type: String,
 		required: true,
