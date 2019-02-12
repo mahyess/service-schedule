@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const passport = require('passport');
+// const passport = require('passport');
 
 const mobiles = require('./routes/api/mobiles');
 // const repair = require('./routes/api/repair');
@@ -23,7 +23,7 @@ mongoose
 	.catch(err => console.log(err));
 
 // passport middleware
-app.use(passport.initialize());
+// app.use(passport.initialize());
 
 // passport config
 // require('./config/passport')(passport);
